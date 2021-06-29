@@ -6,7 +6,7 @@ Python implementation of Othello aka [Reversi](https://en.wikipedia.org/wiki/Rev
 Run the Python script:
 
 ```bash
-python reversi.py
+python othello.py
 ```
 
 The initial board will be shown and the players will start playing in turns.
