@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+#!/usr/bin/env python
+
+>>>>>>> 4102ba975e42395f071fe27554d897352db03c0d
 import copy
 from itertools import cycle
 import os
@@ -85,6 +90,10 @@ class Board():
                     valid_moves.append(move)
         return valid_moves
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4102ba975e42395f071fe27554d897352db03c0d
     def is_valid_move(self, player, move):
         """
         Returns True/False if the player can/cannot play the move.
@@ -243,7 +252,11 @@ class Game:
         Prints the game: the header, notification(s) (if any) and the board
         """
         os.system("clear")
+<<<<<<< HEAD
         header = "Othello • By @Warunicorn19 & @Sonichigo (2021)"
+=======
+        header = "Reversi • By @josegalarza (2020)"
+>>>>>>> 4102ba975e42395f071fe27554d897352db03c0d
         p0 = self.players[0]
         p1 = self.players[1]
         p0_score = f"{p0.color}{'%2d' % self.board.get_player_score(p0)}"
@@ -544,7 +557,11 @@ class Game:
         Prints the game: the header, notification(s) (if any) and the board
         """
         os.system("clear")
+<<<<<<< HEAD
         header = "Othello • @Warunicorn19 & @Sonichigo (2021)"
+=======
+        header = "Reversi • By @josegalarza (2020)"
+>>>>>>> 4102ba975e42395f071fe27554d897352db03c0d
         p0 = self.players[0]
         p1 = self.players[1]
         p0_score = f"{p0.color}{'%2d' % self.board.get_player_score(p0)}"
@@ -599,4 +616,10 @@ Score: {p0_score} vs. {p1_score}
 
 if __name__ == '__main__':
     game = Game()
+<<<<<<< HEAD
     game.start()
+=======
+    game.start()
+
+    
+>>>>>>> 4102ba975e42395f071fe27554d897352db03c0d
